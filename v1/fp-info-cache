@@ -1,4 +1,4 @@
-20431525654646361
+20431525654907652
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52119,8 +52119,8 @@ MODULE_ESP32_DEVKIT_V1
 
 
 0
-39
-39
+30
+30
 Espressif
 ESP32-C3-MINI-1
 ESP32-C3-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
