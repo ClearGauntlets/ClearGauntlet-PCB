@@ -1081,6 +1081,11 @@
     (effects (font (size 2.27 2.27)) (justify left bottom))
     (uuid 977654ca-bbc8-4752-9c9a-f8cd2b9d1a09)
   )
+  (text "  #define PIN_PINKY     36 - D23\n  #define PIN_RING      39 - D22\n  #define PIN_MIDDLE    34 - D5\n  #define PIN_INDEX     35 - D18\n  #define PIN_THUMB     32 - \n  #define PIN_JOY_X     33\n  #define PIN_JOY_Y     25\n  #define PIN_JOY_BTN   26\n  #define PIN_A_BTN     27 \n  #define PIN_B_BTN     14\n  #define PIN_TRIG_BTN  12 //unused if gesture set\n  #define PIN_GRAB_BTN  13 //unused if gesture set\n  #define PIN_PNCH_BTN  23 //unused if gesture set\n  #define PIN_CALIB     12 //button for recalibration (You can set this to GPIO0 to use the BOOT button, but only when using Bluetooth.)\n  #define DEBUG_LED 2\n  #define PIN_PINKY_MOTOR     5  //used for force feedback\n  #define PIN_RING_MOTOR      18 //^\n  #define PIN_MIDDLE_MOTOR    19 //^\n  #define PIN_INDEX_MOTOR     21 //^\n  #define PIN_THUMB_MOTOR     17 //^\n  #define PIN_MENU_BTN        "
+    (at 17.78 190.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9e3566c5-a9a8-4102-a2a1-2ce6166d70ce)
+  )
   (text "Power bank (5V)" (at 171.45 40.64 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e11b1a5f-a727-433e-9711-469f304e2be6)
