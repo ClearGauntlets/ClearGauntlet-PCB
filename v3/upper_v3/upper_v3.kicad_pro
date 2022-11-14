@@ -367,7 +367,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "upper_v3_2.step",
+      "step": "toast_upper.STEP",
       "vrml": "upper_v3.wrl"
     },
     "page_layout_descr_file": ""
