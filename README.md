@@ -16,12 +16,16 @@ The board has two rows of breakout pins that go to finger modules on the glove. 
 
 To assemble the board, you'll need
 - 41 pins Female Dupont Connectors, 2.54mm pitch (2x 15-pin, 1x 6-pin, 1x 5-pin)
-- 11 pins Male Dupont Connectors, 2.54mm pitch (1x 6-pin, 1x 5-pin)
+- 13 pins Male Dupont Connectors, 2.54mm pitch (1x 6-pin, 1x 5-pin)
 - 46 pins 90° Male Dupont Connectors, 2.54mm pitch (1x 21-pin, 1x 25-pin)
 - 1 ESP32
 
 It's all just through-hole soldering, so it goes pretty quick once you have the parts. Use the CAD renders as a guide.
 
 You will also probably want to create a 2-pin 5V USB cable like this one:
+
+![IMG_1019](https://user-images.githubusercontent.com/42927786/213874292-f878529d-52b0-481f-8072-50417f089595.jpg)
+
+It's just power, and ground, and goes into the 5V/GND dupont connector next to the ESP32.
 
 **You'll also need to bodge that 5V in pin to the Vin pin that goes to the ESP32**
