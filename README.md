@@ -2,22 +2,29 @@
 PCB - Schematics Design for VR Gloves
 
 A breakout board for ClearGauntlets, aimed at improving cable management and minifying electronics of VR Gloves.
+<!-- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#hiding-content-with-comments -->
 
-The design consists of two custom PCBs stacked on top of each other, and then an ESP32 on top of that (A "Toast" design).
 
-| Top | Bottom |
-|------|-----|
-| ![Top PCB CAD Model](https://user-images.githubusercontent.com/42927786/213870192-0c83b508-0c16-4860-ba14-e0bf6b0b3c2c.png) | ![Bottom PCB CAD Model](https://user-images.githubusercontent.com/42927786/213870114-c0028989-27c4-4e96-9cf2-4754b6312ba3.png) |
-
-![Fully assembled](https://user-images.githubusercontent.com/42927786/213871232-e8f9c547-1696-4b3a-904e-89bab2069f54.jpg)
+![cleargauntlet-revb-rtx-on](https://user-images.githubusercontent.com/44926107/216163901-b83deb26-56f4-4fab-bbbe-1541b22418f5.png)
 
 ## Specs
-The board has two rows of breakout pins that go to finger modules on the glove. Each set of three is Ground, Signal, and Power, of either 3.3v or 5v.
+The board can hold
+1 ESP 32 V1
+10 potentiometers, each requires 1 3.3V pin, 1 GND, 1 Analog pin.
+5 servo motors, each requires 1 5V pin, 1 GND, 1 Analog pin.
+2 pushed bottons
+1 joystick (5 pins)
+1 power connection (3 pins: 1 5V and 2 GND)
 
+## Pin details
+
+![revB-schematics](https://user-images.githubusercontent.com/44926107/217057736-99c32545-b9b3-4773-8112-eaac8b957907.png)
+
+## Assembly
 To assemble the board, you'll need
-- 41 pins Female Dupont Connectors, 2.54mm pitch (2x 15-pin, 1x 6-pin, 1x 5-pin)
-- 13 pins Male Dupont Connectors, 2.54mm pitch (1x 6-pin, 1x 5-pin)
-- 46 pins 90° Male Dupont Connectors, 2.54mm pitch (1x 21-pin, 1x 25-pin)
+- 30 pins Female Dupont Connectors, 2.54mm pitch (2x 15-pin). This is for holding the ESP-32
+- 15 x 3 pins Male Dupont Connectors, 2.54mm pitch, for connecting pontentiomers, servos)
+- 2 x 2 pin Male Dupont for push buttons and 5 pin Male Dupont for Joystick
 - 1 ESP32
 
 It's all just through-hole soldering, so it goes pretty quick once you have the parts. Use the CAD renders as a guide.
