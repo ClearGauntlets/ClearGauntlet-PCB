@@ -1,0 +1,39 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.7)*%
+%TF.CreationDate,2023-02-13T15:53:41-05:00*%
+%TF.ProjectId,joycon,6a6f7963-6f6e-42e6-9b69-6361645f7063,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.7)) date 2023-02-13 15:53:41*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentPad*%
+%ADD10R,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11O,1.700000X1.700000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,J2,1,Pin_1*%
+%TO.N,Net-(J1-Pad1)*%
+X146685000Y-94615000D03*
+D11*
+%TO.P,J2,2,Pin_2*%
+%TO.N,Net-(J1-Pad2)*%
+X146685000Y-97155000D03*
+%TO.P,J2,3,Pin_3*%
+%TO.N,Net-(J1-Pad3)*%
+X146685000Y-99695000D03*
+%TO.P,J2,4,Pin_4*%
+%TO.N,GND*%
+X146685000Y-102235000D03*
+%TO.P,J2,5,Pin_5*%
+%TO.N,Net-(J1-Pad5)*%
+X146685000Y-104775000D03*
+%TD*%
+M02*
