@@ -1765,7 +1765,7 @@
     (uuid 7aaf189b-37e0-4195-b868-1caa4b00585d)
     (property "Reference" "R1" (id 0) (at 142.24 109.22 90))
     (property "Value" "R_US" (id 1) (at 142.24 111.76 90))
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (id 2) (at 152.146 110.236 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 152.146 110.236 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 152.4 109.22 0)
@@ -1974,7 +1974,7 @@
       (reference "J19") (unit 1) (value "Conn_01x08_Male") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical")
     )
     (path "/7aaf189b-37e0-4195-b868-1caa4b00585d"
-      (reference "R1") (unit 1) (value "R_US") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R1") (unit 1) (value "R_US") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/2759ef2b-fb73-4f9c-b218-914252ad87a7"
       (reference "U1") (unit 1) (value "ESP32-DEVKIT-V1") (footprint "ESP32-DEVKIT-V1:MODULE_ESP32_DEVKIT_V1")
