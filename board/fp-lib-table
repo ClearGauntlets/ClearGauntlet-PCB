@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "UVR1C101MDD")(type "KiCad")(uri "${KIPRJMOD}/3rdparty/UVR1C101MDD")(options "")(descr ""))
+)
