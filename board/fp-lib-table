@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name "UVR1C101MDD")(type "KiCad")(uri "${KIPRJMOD}/3rdparty/UVR1C101MDD")(options "")(descr ""))
+  (lib (name "cg_logo_small")(type "KiCad")(uri "${KIPRJMOD}/3rdparty/cg_logo_small")(options "")(descr ""))
+  (lib (name "ESP32-DEVKIT-V1")(type "KiCad")(uri "${KIPRJMOD}/3rdparty/ESP32-DEVKIT-V1")(options "")(descr ""))
 )
