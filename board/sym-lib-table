@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "BPV22NF")(type "KiCad")(uri "${KIPRJMOD}/3rdparty/BPV22NF/BPV22NF.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV2462IP")(type "KiCad")(uri "${KIPRJMOD}/3rdparty/TLV2462IP/TLV2462IP.kicad_sym")(options "")(descr ""))
+  (lib (name "UVR1C101MDD")(type "KiCad")(uri "${KIPRJMOD}/3rdparty/UVR1C101MDD/UVR1C101MDD.kicad_sym")(options "")(descr ""))
+)
