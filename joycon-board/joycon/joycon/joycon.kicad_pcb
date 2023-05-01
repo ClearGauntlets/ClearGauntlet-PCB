@@ -179,7 +179,7 @@
       (net 7 "Net-(J8-Pad1)") (pinfunction "Pin_2") (pintype "passive") (tstamp 142b611b-d193-4c67-a6dc-717be49a6c5f))
     (pad "3" thru_hole oval (at 0 5.08 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 8 "Net-(J9-Pad1)") (pinfunction "Pin_3") (pintype "passive") (tstamp 22128f9f-e31b-43bf-a1fb-c0bcb6861d92))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -293,7 +293,7 @@
       (net 8 "Net-(J9-Pad1)") (pinfunction "Pin_1") (pintype "passive") (tstamp 5eb6b61d-a128-4b28-92e9-052a239caf75))
     (pad "2" thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 5 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 5cea0b87-b4bb-4141-bd0d-8cdcaa75a0cd))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -402,7 +402,7 @@
       (net 7 "Net-(J8-Pad1)") (pinfunction "Pin_1") (pintype "passive") (tstamp 8f5eb95d-ce70-4ca4-b589-2ee36cbf7b9a))
     (pad "2" thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 5 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 25428a8f-84c7-4065-aabf-ebc93226cca2))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -417,19 +417,19 @@
     (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 6.6 -4.5) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp ef914dab-4b98-4547-9389-1baef35892f6)
+      (tstamp 8c32988f-a177-4963-b604-8c1154699d09)
     )
     (fp_text value "MountingHole_2.1mm" (at 3.8 -3.2 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp bac5c3e4-1a92-40fa-9841-7e8902b2bb89)
+      (tstamp 01dbaf05-d463-4107-a9f4-9f10dca61da4)
     )
     (fp_text user "${REFERENCE}" (at 5.9 -1.4 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 90ba5afc-da0f-4639-a95b-dca756ed6051)
+      (tstamp 914f1803-a582-45a5-b537-1fd8771ae694)
     )
-    (fp_circle (center 0 0) (end 1.9 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 837c6cba-fc95-4435-b4ab-af769c35995a))
-    (fp_circle (center 0 0) (end 2.1 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 3aa354c3-1914-4ef6-948d-3a7ab10f8068))
-    (pad "" np_thru_hole circle (at 0 0 180) (size 2.3 2.3) (drill 2.2) (layers F&B.Cu *.Mask) (tstamp 333b9bb9-2281-43cb-8b73-a695adc8f4e6))
+    (fp_circle (center 0 0) (end 1.9 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp c014e276-24d4-4fbc-b99b-e69c2dd6d93f))
+    (fp_circle (center 0 0) (end 2.1 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 41c39268-1e24-4733-b148-edb484638c77))
+    (pad "" np_thru_hole circle (at 0 0 180) (size 2.3 2.3) (drill 2.2) (layers F&B.Cu *.Mask) (tstamp 6d876179-eda6-44d4-8b13-c4bb03fe3680))
   )
 
   (gr_circle (center 134.9 119) (end 137.4 122.2) (layer "F.Adhes") (width 0.15) (fill none) (tstamp d56dfd6e-10d4-4d88-96ee-45b38e9ba4b4))
